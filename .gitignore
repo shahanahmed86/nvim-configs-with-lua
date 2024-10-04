@@ -1,0 +1,19 @@
+# Backup files
+*~
+*.swp
+*.swo
+
+# Neovim files
+*.log
+*.tmp
+session.vim
+
+# Plugin directories
+/.local/share/nvim/site/pack/*
+!/pack/plugins/start/*
+!/pack/plugins/opt/*
+
+# Generated directories
+/.cache/
+/.config/nvim/
+
