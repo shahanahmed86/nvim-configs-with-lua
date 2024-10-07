@@ -12,5 +12,7 @@ This repository contains my personal configuration for Neovim using Lua. The goa
 
 1. Clone the repository:
    ```bash
+   # on Mac
+   brew install fd ripgrep && \
    git clone https://github.com/shahanahmed86/nvim-configs-with-lua.git ~/.config/nvim
    ```
