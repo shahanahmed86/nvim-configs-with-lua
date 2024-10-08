@@ -8,11 +8,28 @@ This repository contains my personal configuration for Neovim using Lua. The goa
 - **Customization**: Easy customization of key mappings, themes, and settings.
 - **Performance**: Optimized for performance with minimal lag.
 
+## Prerequisites
+
+- **macOS**:
+```bash
+brew install neovim fd ripgrep
+```
+
+- **ubuntu**:
+```bash
+sudo apt install neovim fd-find ripgrep
+```
+You need to do additional steps on [fd-find](https://github.com/sharkdp/fd?tab=readme-ov-file#on-ubuntu)
+
+- **windows**:
+```bash
+scoop install neovim fd ripgrep
+```
+
 ## Installation
 
-1. Clone the repository:
-   ```bash
-   # on Mac
-   brew install fd ripgrep && \
-   git clone https://github.com/shahanahmed86/nvim-configs-with-lua.git ~/.config/nvim
-   ```
+## Clone the Repository:
+```bash
+git clone https://github.com/shahanahmed86/nvim-configs-with-lua.git $HOME/.config/nvim
+```
+
