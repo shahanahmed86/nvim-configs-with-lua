@@ -9,4 +9,5 @@ vim.g.mapleader = " "
 vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')
 vim.keymap.set('i', 'jk', '<Esc>', {})
 vim.keymap.set('n', 'K', ':m .-2<CR>J')
-
+vim.keymap.set('n', '<C-d>', '<C-d>zz')
+vim.keymap.set('n', '<C-u>', '<C-u>zz')
